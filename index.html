@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Link CSS File-->
+    <link rel="stylesheet" href="style.css">
+    <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+
+
+
+
+
+<body>
+    <!--adbar-->
+
+    <div class="add">
+        <div style="display: flex; align-items: center; gap: 8px;">
+            <p>SignUp and </p>
+            <h4>GET 20% OFF</h4>
+            <p>For Your First Order</p>
+
+        </div>
+        <p style="cursor: pointer;" onclick="closepop()">
+
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+    </div>
+
+
+
+    <!--navbar-->
+
+    <nav class="navbar">
+
+        <h1 style="display: inline-block; font-size: larger; padding-left: 5px; font-size: 30px;">Nostra</h1>
+
+
+        <div class="navbar-links" class="md:flex ">
+
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="#new-arrival">New Arrival</a></p>
+            <p class="navbar-link"><a href="#mostwanted">Most Wanted</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+
+
+        </div>
+
+        <div class="navbar-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+
+
+
+    </nav>
+
+    <!-- side navbar -->
+
+    <div class="side-navbar-links">
+        <div style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="#new-arrival">New Arrival</a></p>
+        <p class="side-navbar-link"><a href="#mostwanted">Most Wanted</a></p>
+        <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact Us</a></p>
+
+
+    </div>
+
+    <!-- Hero-Image -->
+    <div class="hero-container">
+        <div class="hero-images">
+            <img src="hero image 1.jpeg" alt="Summer Collection 1" class="hero-image active">
+            <img src="hero image 2.jpeg" alt="Summer Collection 2" class="hero-image">
+        </div>
+        <div class="hero-content">
+            <h1>Level Up Your Styles With Our</h1>
+            <p>Summer Collections</p>
+            <button>Shop Now</button>
+        </div>
+
+        <button class="btnlf">&#10094;</button>
+        <button class="btnrt">&#10095;</button>
+    </div>
+    <!-- Brands section -->
+    <div class="brands">
+        <div>
+            <h1 style="padding-left: 5px;">Brands</h1>
+        </div>
+        <div class="brandsection">
+
+            <div class="brand">
+                <img src="puma.png" style="height: 60px; width: 60px;">
+                <h2>PUMA</h2>
+            </div>
+            <div class="brand">
+                <img src="adidas.png" style="height: 60px; width: 60px;">
+                <h2>ADIDAS</h2>
+            </div>
+            <div class="brand">
+                <img src="nike.png" style="height: 60px; width: 60px;">
+                <h2>NIKE</h2>
+            </div>
+
+            <div class="brand">
+                <img src="hm.png" style="height: 60px; width: 60px;">
+                <h2>H & M</h2>
+            </div>
+            <div class="brand">
+                <img src="logan.png" style="height: 60px; width: 60px;">
+                <h2>LOGAN</h2>
+            </div>
+            <div class="brand">
+                <img src="Romwe.png" style="height: 60px; width: 60px;">
+                <h2>ROMWE</h2>
+            </div>
+            <div class="brand">
+                <img src="yeezus.png" style="height: 60px; width: 60px;">
+                <h2>YEEZUS</h2>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Service Section -->
+
+    <div class="service">
+        <div class="service-container-1">
+            <div>
+                <h2>We Provide Our</h2>
+                <h2>Best Experience</h2>
+            </div>
+
+            <div>
+                <p>|| We ensure that that our customer have the best shopping experience0</p>
+            </div>
+        </div>
+        <div class="service-container-2">
+            <div>
+                <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-regular fa-circle-check"></i>
+                <h4>Original Products</h4>
+                <p>Discover our curated collection of high-quality products designed to bring style.</p>
+            </div>
+            <div>
+                <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-regular fa-face-smile"></i>
+                <h4>Satisfaction Guarantee</h4>
+                <p>We stand behind the quality of our products with a 100% satisfaction guarantee.</p>
+            </div>
+            <div>
+                <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-solid fa-broom"></i>
+                <h4>New Arrival Everyday</h4>
+                <p>Explore our latest arrivals be the first to get your hands on this season's you must-haves.</p>
+            </div>
+            <div>
+                <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-solid fa-truck-fast"></i>
+                <h4>Fast & Free Shipping</h4>
+                <p>Enjoy free shipping and speedy delivery, every time you shop with us.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- New Arival Section -->
+    <div class="initial-scroll-animate reveal-scroll-animate">
+
+        <div class="new-arrival" id="new-arrival">
+            <h1 style="padding-left: 10px; ;">New Arrival</h1>
+            <div class="shopnow-container">
+
+                <div>
+                    <img src="shop1.jpg" alt="Image">
+                    <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div>
+                    <img src="shop2.jpg" alt="Image">
+                    <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div>
+                    <img src="shop3.jpg" alt="Image">
+                    <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div>
+                    <img src="shop4.jpg" alt="Image">
+                    <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Most Wanted -->
+    <div class="initial-scroll-animate reveal-scroll-animate">
+        <h1 style="padding-left: 5px;" id="mostwanted">Most Wanted</h1>
+
+        <div class="mostwanted">
+
+            <div class="mostwanted-container">
+
+                <p class="overlay">Sale</p>
+                <img style="height: 285px; width: 230px; border-radius: 10px;" src="img1.jpg">
+
+                <div class="likebutton">
+                    <span class="heartempty"><i class="fa-regular fa-heart"></i></span><span class="fillempty"><i
+                            class="fa-solid fa-heart"></i></span>
+                </div>
+
+            </div>
+
+            <div class="mostwanted-container">
+
+                <p class="overlay">Sale</p>
+                <img style="height: 285px; width: 230px; border-radius: 10px;" src="img7.jpg">
+
+                <div class="likebutton">
+                    <span class="heartempty"><i class="fa-regular fa-heart"></i></span><span class="fillempty"><i
+                            class="fa-solid fa-heart"></i></span>
+                </div>
+            </div>
+            <div class="mostwanted-container">
+
+                <p class="overlay">Sale</p>
+                <img style="height: 285px; width: 230px; border-radius: 10px;" src="img3.jpg">
+
+                <div class="likebutton">
+                    <span class="heartempty"><i class="fa-regular fa-heart"></i></span><span class="fillempty"><i
+                            class="fa-solid fa-heart"></i></span>
+                </div>
+
+            </div>
+            <div class="mostwanted-container">
+
+                <p class="overlay">Sale</p>
+                <img style="height: 285px; width: 230px; border-radius: 10px;" src="img6.jpg">
+
+                <div class="likebutton">
+                    <span class="heartempty"><i class="fa-regular fa-heart"></i></span><span class="fillempty"><i
+                            class="fa-solid fa-heart"></i></span>
+                </div>
+
+            </div>
+            <div class="mostwanted-container">
+
+                <p class="overlay">Sale</p>
+                <img style="height: 285px; width: 230px; border-radius: 10px;" src="img4.jpg">
+
+                <div class="likebutton">
+                    <span class="heartempty"><i class="fa-regular fa-heart"></i></span><span class="fillempty"><i
+                            class="fa-solid fa-heart"></i></span>
+                </div>
+
+            </div>
+            <div class="mostwanted-container">
+
+                <p class="overlay">Sale</p>
+                <img style="height: 285px; width: 230px; border-radius: 10px;" src="img2.jpg">
+
+                <div class="likebutton">
+                    <span class="heartempty"><i class="fa-regular fa-heart"></i></span><span class="fillempty"><i
+                            class="fa-solid fa-heart"></i></span>
+                </div>
+
+            </div>
+            <div class="mostwanted-container">
+
+                <p class="overlay">Sale</p>
+                <img style="height: 285px; width: 230px; border-radius: 10px;" src="img8.jpg">
+
+                <div class="likebutton">
+                    <span class="heartempty"><i class="fa-regular fa-heart"></i></span><span class="fillempty"><i
+                            class="fa-solid fa-heart"></i></span>
+                </div>
+
+            </div>
+            <div class="mostwanted-container">
+
+                <p class="overlay">Sale</p>
+                <img style="height: 285px; width: 230px; border-radius: 10px;" src="img5.jpg">
+
+                <div class="likebutton">
+                    <span class="heartempty"><i class="fa-regular fa-heart"></i></span><span class="fillempty"><i
+                            class="fa-solid fa-heart"></i></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Limited OFFER -->
+
+    <div class="limitedcontainer">
+        <div class="limited-image">
+            <img src="limited.jpg" alt="Image">
+        </div>
+        <div class="limited-text">
+            <h1 style="color: white; gap: 10px;">Limited Offer</h1>
+            <h2 style="color: white; gap: 10px;">35% OFF on this for the first 30 Customers</h2>
+            <button style="margin-top: 10px;">Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </div>
+
+
+    <!-- News Letter Section -->
+    <div class="news">
+        <h1>Join Our News Letter</h1>
+        <p>Signup for our email newsletter to get exclusive discounts and updates</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+        <div>
+            <button>Subscribe</button>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footercontainer" style="padding: 10px; margin: 10px;">
+            <h1>Nostra</h1>
+            <h3>Shop with confidence and enjoy seamless online shopping with secure checkout, fast delivery, and
+                top-notch customer service</h3>
+        </div>
+        <div class="footericons" style="padding: 10px; margin: 10px;">
+            <i class="fa-brands fa-instagram" style="color: white; padding-right: 20px;"></i>
+            <i class="fa-brands fa-whatsapp" style="color: white;padding-right: 20px;"></i>
+            <i class="fa-brands fa-twitter" style="color: white;padding-right: 20px;"></i>
+            <i class="fa-brands fa-facebook" style="color: white;padding-right: 20px;"></i>
+        </div>
+        <div style="padding: 10px; margin: 10px;">
+            <h2>@Copy All Rights Reserved! 2025-Nostra</h2>
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script src="script.js"></script>

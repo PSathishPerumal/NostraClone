@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Link CSS File-->
+    <link rel="stylesheet" href="style.css">
+    <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<!--navbar-->
+
+<nav class="navbar">
+
+    <h1 style="display: inline-block; font-size: larger; padding-left: 5px; font-size: 30px;">Nostra</h1>
+
+
+    <div class="navbar-links" class="md:flex ">
+
+        <p class="navbar-link"><a href="index.html">Home</a></p>
+
+        <p class="navbar-link"><a href="collections.html">Collections</a></p>
+        <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+
+
+    </div>
+
+    <div class="navbar-toggle" onclick="shownavbar()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+
+
+
+</nav>
+
+<!-- side navbar -->
+
+<div class="side-navbar-links">
+    <div style="text-align: right;" onclick="closenavbar()">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <p class="side-navbar-link"><a href="index.html">Home</a></p>
+    <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+    <p class="side-navbar-link"><a href="contact.html">Contact Us</a></p>
+
+
+</div>
+
+<div class="collections">
+
+    <div>
+        <form class="product-section">
+            <input type="text" id="product-search">
+            <i class="fa-solid fa-magnifying-glass" style="padding-right: 10px;"></i>
+        </form>
+    </div>
+
+    <div class="filters" id="filters"
+        style="box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+        <div class="buttons">
+            <button class="filterbuttonall" id="resetBtn">All</button>
+        </div>
+        <div class="buttons">
+            <button class="filterbutton" id="t-shirt">T-Shirt</button>
+        </div>
+        <div class="buttons">
+            <button class="filterbutton" id="shirt">Shirt</button>
+        </div>
+        <div class="buttons">
+            <button class="filterbutton" id="kid">Kid</button>
+        </div>
+        <div class="buttons">
+            <button class="filterbutton" id="layeroutfits">LayerOutfits</button>
+        </div>
+    </div>
+
+
+
+    <div class="products" id="products">
+
+        <div class="product-box">
+            <img src="Checked bkue.jpeg" alt="Image">
+            <p>Checked Blue Shirt</p>
+            <p>Rs.999</p>
+        </div>
+        <div class="product-box">
+            <img src="maroon.jpg" alt="Image">
+            <p>Maroon Plain Shirt</p>
+            <p>Rs.599</p>
+        </div>
+        <div class="product-box">
+            <img src="lining blue.jpeg" alt="Image">
+            <p>Lining Blue Shirt</p>
+            <p>Rs.699</p>
+        </div>
+        <div class="product-box">
+            <img src="printed.jpg" alt="Image">
+            <p> White Printed Shirt</p>
+            <p>Rs.799</p>
+        </div>
+        <div class="product-box">
+            <img src="printed men.jpg" alt="Image">
+            <p>Printed layeroutfits</p>
+            <p>Rs.899</p>
+        </div>
+        <div class="product-box">
+            <img src="whiteprinted.jpg" alt="Image">
+            <p>White layeroutfits</p>
+            <p>Rs.999</p>
+        </div>
+        <div class="product-box">
+            <img src="green checked.jpg" alt="Image">
+            <p>Green layeroutfits</p>
+            <p>Rs.1199</p>
+        </div>
+        <div class="product-box">
+            <img src="skyblue.jpg" alt="Image">
+            <p>Light layeroutfits</p>
+            <p>Rs.499</p>
+        </div>
+        <div class="product-box">
+            <img src="tshirt1.jpg" alt="Image">
+            <p>Green T-Shirt</p>
+            <p>Rs.599</p>
+        </div>
+        <div class="product-box">
+            <img src="tshirt2.jpg" alt="Image">
+            <p>Gray T-Shirt</p>
+            <p>Rs.699</p>
+        </div>
+        <div class="product-box">
+            <img src="tshirt3.jpg" alt="Image">
+            <p>Black T-Shirt</p>
+            <p>Rs.399</p>
+        </div>
+        <div class="product-box">
+            <img src="tshirt4.jpeg" alt="Image">
+            <p>White T-Shirt</p>
+            <p>Rs.499</p>
+        </div>
+        <div class="product-box">
+            <img src="kids1.jpg" alt="Image">
+            <p>Kid Maroon Short Kurta</p>
+            <p>Rs.999</p>
+        </div>
+        <div class="product-box">
+            <img src="kids2.jpg" alt="Image">
+            <p>Kid Ethnic Waer</p>
+            <p>Rs.1299</p>
+        </div>
+        <div class="product-box">
+            <img src="kids3.jpg" alt="Image">
+            <p>Kid Indo Western</p>
+            <p>Rs.1399</p>
+        </div>
+        <div class="product-box">
+            <img src="kids4.jpeg" alt="Image">
+            <p>Kid Fancy Dfiyona</p>
+            <p>Rs.1199</p>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Footer Section -->
+<div class="footer">
+    <div class="footercontainer" style="padding: 10px; margin: 10px;">
+        <h1>Nostra</h1>
+        <h3>Shop with confidence and enjoy seamless online shopping with secure checkout, fast delivery, and top-notch
+            customer service</h3>
+    </div>
+    <div class="footericons" style="padding: 10px; margin: 10px;">
+        <i class="fa-brands fa-instagram" style="color: white; padding-right: 20px;"></i>
+        <i class="fa-brands fa-whatsapp" style="color: white;padding-right: 20px;"></i>
+        <i class="fa-brands fa-twitter" style="color: white;padding-right: 20px;"></i>
+        <i class="fa-brands fa-facebook" style="color: white;padding-right: 20px;"></i>
+    </div>
+    <div style="padding: 10px; margin: 10px;">
+        <h2>@Copy All Rights Reserved! 2025-Nostra</h2>
+    </div>
+
+</div>
+</body>
+
+</html>
+<script src="collections.js"></script>
